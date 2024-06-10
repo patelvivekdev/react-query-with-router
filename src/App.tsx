@@ -6,21 +6,21 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="w-full text-center flex flex-col gap-4 min-h-screen mx-auto relative justify-center bg-[#242424] bg-dot-white/[0.2] text-white">
+    <div className="w-full text-center flex flex-col gap-4 min-h-screen mx-auto relative justify-center bg-black bg-dot-[#646cffaa]/50 text-white">
       {/* Radial gradient for the container to give a faded look */}
-      <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-[#242424] [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_30%,black)]"></div>
       <div className="w-full flex flex-row gap-4 items-center justify-center">
         <a href="https://vitejs.dev" target="_blank">
           <img
             src={viteLogo}
-            className="h-16 sm:h-28 hover:drop-shadow-[0_0_2em_#646cffaa] p-2"
+            className="h-20 sm:h-36 hover:drop-shadow-[0px_0px_2rem_#646cffaa] p-2"
             alt="Vite logo"
           />
         </a>
         <a href="https://react.dev" target="_blank">
           <img
             src={reactLogo}
-            className="h-16 sm:h-28 hover:drop-shadow-[0_0_2em_#61dafbaa] p-2"
+            className="h-20 sm:h-36 hover:drop-shadow-[0px_0px_2rem_#61dafbaa] p-2"
             alt="React logo"
           />
         </a>
