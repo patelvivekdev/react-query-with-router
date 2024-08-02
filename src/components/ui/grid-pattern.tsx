@@ -7,7 +7,7 @@ interface GridPatternProps {
   x?: number;
   y?: number;
   squares?: Array<[x: number, y: number]>;
-  strokeDasharray?: number;
+  strokeDasharray?: number | string;
   className?: string;
   [key: string]: number | Array<[x: number, y: number]> | string | undefined;
 }
