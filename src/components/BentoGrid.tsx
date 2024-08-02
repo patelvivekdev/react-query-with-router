@@ -13,7 +13,7 @@ const features = [
     href: "https://tanstack.com/query/latest",
     cta: "Learn more",
     className:
-      "col-span-3 lg:col-span-1 dark:hover:border-dashed dar:hover:border-[#646cffaa] dark:hover:border-4",
+      "col-span-3 lg:col-span-1 hover:border-dashed dark:hover:border-dashed dar:hover:border-[#646cffaa] dark:hover:border-4",
     background: (
       <GridPattern
         width={30}
@@ -33,7 +33,8 @@ const features = [
     description: "React Router enables client side routing.",
     href: "https://reactrouter.com/en/main",
     cta: "Learn more",
-    className: "col-span-3 lg:col-span-2",
+    className:
+      "col-span-3 lg:col-span-2 hover:border-dashed dark:hover:border-dashed dar:hover:border-[#646cffaa] dark:hover:border-4",
     background: (
       <DotPattern
         width={15}
@@ -53,14 +54,16 @@ const features = [
     description: "Beautiful & consistent icons.",
     href: "https://lucide.dev/",
     cta: "Learn more",
-    className: "col-span-3 lg:col-span-2",
+    className:
+      "col-span-3 lg:col-span-2 hover:border-dashed dark:hover:border-dashed dar:hover:border-[#646cffaa] dark:hover:border-4",
     background: <RetroGrid />,
   },
   {
     Icon: Calendar,
     name: "Tailwind CSS",
     description: "A utility-first CSS framework.",
-    className: "col-span-3 lg:col-span-1",
+    className:
+      "col-span-3 lg:col-span-1 hover:border-dashed dark:hover:border-dashed dar:hover:border-[#646cffaa] dark:hover:border-4",
     href: "https://tailwindcss.com",
     cta: "Learn more",
     background: (

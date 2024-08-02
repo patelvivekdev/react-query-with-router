@@ -2,15 +2,15 @@ import { cn } from "@/lib/utils";
 import { useId } from "react";
 
 interface DotPatternProps {
-  width?: any;
-  height?: any;
-  x?: any;
-  y?: any;
-  cx?: any;
-  cy?: any;
-  cr?: any;
+  width?: number;
+  height?: number;
+  x?: number;
+  y?: number;
+  cx?: number;
+  cy?: number;
+  cr?: number;
   className?: string;
-  [key: string]: any;
+  [key: string]: number | string | undefined;
 }
 export function DotPattern({
   width = 16,
@@ -22,7 +22,7 @@ export function DotPattern({
   cr = 1,
   className,
   ...props
-}: DotPatternProps) {
+}: Readonly<DotPatternProps>) {
   const id = useId();
 
   return (

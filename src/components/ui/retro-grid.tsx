@@ -1,6 +1,8 @@
 import { cn } from "@/lib/utils";
 
-export default function RetroGrid({ className }: { className?: string }) {
+export default function RetroGrid({
+  className,
+}: Readonly<{ className?: string }>) {
   return (
     <div
       className={cn(
