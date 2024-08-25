@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from './assets/vite.svg';
-import BentoGridDemo from './components/BentoGrid';
+import BentoGridDemo from '@/components/BentoGrid';
 
 function App() {
   const [count, setCount] = useState(0);
